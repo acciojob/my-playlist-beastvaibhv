@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 body{
-	background-color: gray;
+	background-color: rgb(204, 204, 204);
 	
 }
 h1{
@@ -12,7 +12,7 @@ h2{
 .playlist{
 	background-color:white;
 	border: 1px solid black;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 ul{
 	list-style-type: none;
@@ -20,4 +20,30 @@ ul{
 a{
 	text-decoration-line: none;
 }
-.playing
+.playing{
+	background-color:  rgb(255, 255, 255);
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+}
+.player_one{
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+	display:flex;
+	justify-content: center;
+	
+}
+.player_two{
+	background-color: rgb(255, 255, 255);
+	display:flex;
+
+	
+	justify-content: center;
+	padding: 10px;
+	
+}
+audio{
+	background-color: rgb(255,255,255);
+	padding: 10px;
+	border-radius: 5px;
+}
